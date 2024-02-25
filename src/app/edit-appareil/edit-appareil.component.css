@@ -1,0 +1,26 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-group{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-group label{
+    margin-bottom: 3px
+}
+.form-control{
+    width: 200%;
+    margin-top: 5px;
+    padding: 2%;
+}
+button{
+    margin-top: 12px;
+    background-color: rgb(112, 214, 112);
+    border: 1px solid rgb(112, 214, 112);
+    color: white;
+}

@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+.all-user{
+    margin-top: 2%;
+}
+.ls-user{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+.btn-sign-in{
+    background-color: rgb(67, 207, 67);
+    border: 1px solid rgb(67, 207, 67) ;
+
+}
+.btn-sign-out{
+    background-color: rgb(218, 65, 65);
+    border: 1px solid rgb(218, 65, 65);
+}

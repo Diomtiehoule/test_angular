@@ -1,0 +1,22 @@
+<nav class="nav-bar">
+  <div class="container-fluid">
+    <ul class="nav-bar-nav">
+      <li  routerLinkActive="active"><a routerLink="auth">Authentification</a></li>
+      <li  routerLinkActive="active"><a routerLink="appareilView">Appareils</a></li>
+      <li  routerLinkActive="active"><a routerLink="editAppareil">Nouvelle appareil</a></li>
+      <li  routerLinkActive="active"><a routerLink="user">Utilisateur</a></li>
+    </ul>
+  </div>
+  <div class="div">
+    <p>vous êtes sur le site depuis {{ secondes }} secondes</p>
+  </div>
+</nav>
+<div class="container">
+  <div class="rows">
+    <router-outlet></router-outlet>
+    
+    <!-- <app-appareil-view></app-appareil-view> -->
+  </div>
+</div>
+
+
